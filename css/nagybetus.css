@@ -1,0 +1,60 @@
+@import url('alap.css');
+
+body 
+{
+	font-size:2em;
+}
+
+a#nagybetu
+{
+	display: none;
+}
+
+a#normalbetu
+{
+	display: block;
+	margin-left: 0;
+	font-size: 0.9em;
+}
+
+header, main, footer
+{
+	width: 90%;
+	max-width: 1200px;
+}
+
+nav#gyengenlato
+{
+	width: 50%;
+}
+
+article div
+{
+    display: block;
+    column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+}
+
+article h2
+{
+    height: 80px;
+}
+
+article#szabalyok img
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    article#szabalyok figure
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    article#felszerelesek p
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
