@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tenisz - Űrlap</title>
+    <link href="css/alap.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="kipozicional">
+        <a href="#teteje">Ugrás a tartalomra</a>
+    </nav>
+    <header>
+        <nav id="fomenu">
+            <ul>
+                <li><a href="index.html"><span class="ikon"></span>Kezdőlap</a></li>
+                <li><a href="legjobbak.html"><span class="ikon"></span>A sportág legjobbjai</a></li>
+                <li><a href="versenyek.html"><span class="ikon"></span>Főbb versenyek</a></li>
+                <li><a href="erdekessegek.html"><span class="ikon"></span>Érdekességek</a></li>
+                <li><a href="urlap.html" id="aktiv"><span class="ikon"></span>Űrlap</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="teteje">
+        <h1>Saját történet, vélemény beküldése</h1>
+        <p>
+            Érdekesnek találtad a honlapon található információkat? Hallottad már őket korábban? Szemtanúja voltál már
+            hasonló
+            történéseknek? Esetleg van valamilyen kérdésed? Töltsd ki ezt az űrlapot és írd meg történetedet,
+            kérdésedet.
+        </p>
+        <form action="mailto:dorogidori@gmail.com" method="POST" enctype="text/plain">
+            <fieldset>
+                <legend> Adataid </legend>
+                <label for="nev"> <strong> Név </strong></label> <br>
+                <input class="text" type="text" name="nev" id="nev" size="60" required> <br>
+                <label for="email"> <strong> E-mail cím </strong></label> <br>
+                <input class="text" type="email" name="email" id="email" size="60" required> <br>
+            </fieldset>
+            <fieldset>
+                <legend> Kapcsolódás a teniszhez </legend>
+                <p> Szoktál teniszmeccseket nézni TV-ben, vagy akár élőben? <br>
+                    <input type="radio" name="meccsnezes" id="meccs:igen" value="meccs:igen"> <label for="meccs:igen">Igen</label>
+                    <input type="radio" name="meccsnezes" id="meccs:nem" value="meccs:nem"> <label for="meccs:nem">Nem</label>
+                </p>
+                <p> Tudsz/szoktál teniszezni? <br>
+                    <input type="radio" name="tenisz" id="tenisz:i/i" value="i/i"> <label for="tenisz:i/i">Tudok és szoktam
+                        is.</label>
+                    <input type="radio" name="tenisz" id="tenisz:i/n" value="i/n"> <label for="tenisz:i/n">Tudok, de nem
+                        szoktam.</label>
+                    <input type="radio" name="tenisz" id="tenisz:n/n" value="n/n"> <label for="tenisz:n/n">Nem tudok.</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend> Kérdések a honlappal kapcsolatban </legend>
+                <p> Hallottad már korábban az említett érdekességeket? <br>
+                    <input type="radio" name="honlap1" id="hall:i/n" value="mind"> <label for="hall:i/n">Igen, mindet
+                        hallottam.</label>
+                    <input type="radio" name="honlap1" id="hall:i/i" value="van"> <label for="hall:i/i">Igen, van olyan,
+                        amit már hallottam.</label>
+                    <input type="radio" name="honlap1" id="hall:n/n" value="nem"> <label for="hall:n/n">Nem, még egyiket sem
+                        hallottam.</label>
+                </p>
+                <p> Melyik érdekesség(ek)ről hallottál már korábban? <br>
+                    <input type="checkbox" name="hallotta" id="hallotta1" value="igen">
+                    <label for="hallotta1">Fehér Wimbledon</label>
+                    <input type="checkbox" name="hallotta" id="hallotta2" value="igen">
+                    <label for="hallotta2">Hová tűntek a vonalbírók?</label>
+                    <input type="checkbox" name="hallotta" id="hallotta3" value="igen">
+                    <label for="hallotta3">Maratoni mérkőzés</label>
+                    <input type="checkbox" name="hallotta" id="hallotta4" value="igen">
+                    <label for="hallotta4">Állatok a pályán</label>
+                </p>
+                <p> Mennyire tetszett a weboldal5-ös skálán? <br>
+					<input type="radio" name="ertekeles" id="v1" value="1"> <label for="v1">1</label>
+					<input type="radio" name="ertekeles" id="v2" value="2"> <label for="v2">2</label>
+					<input type="radio" name="ertekeles" id="v3" value="3"> <label for="v3">3</label>
+					<input type="radio" name="ertekeles" id="v4" value="4"> <label for="v4">4</label>
+					<input type="radio" name="ertekeles" id="v5" value="5" checked> <label for="v5">5</label>
+				</p>
+            </fieldset>
+            <fieldset>
+                <legend> Saját történet, videó beküldése </legend>
+                <label for="tortenet"> <strong> Történeted, kérdésed röviden </strong> </label> <br>
+                <textarea class="text" cols="60" rows="10" name="tortenet" id="tortenet"
+                    placeholder="Van valamilyen észrevételed, kérdésed, érdekes történeted? Itt megoszthatod!"></textarea>
+                <br>
+                <label for="video"> <strong> Videó webcíme </strong> </label> <br>
+                <input class="text" type="url" name="video" id="video" size="60"> <br>
+            </fieldset>
+            <fieldset>
+                <legend> Adatok elküldése </legend>
+                <input class="button" type="submit" value="Küldés">
+                <input class="button" type="reset" value="Törlés">
+            </fieldset>
+        </form>
+        <nav id="ugras">
+            <a href="#teteje" class="belsolink">VISSZA A TETEJÉRE</a>
+        </nav>
+    </main>
+    <footer>
+        <p>Készítette: Dorogi Dóra<br>
+            <time datetime="2021-04-12">2021.04.12.</time>
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>

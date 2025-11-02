@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tenisz - A sportág legjobbjai</title>
+    <link href="css/alap.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="kipozicional">
+        <a href="#teteje">Ugrás a tartalomra</a>
+    </nav>
+    <header>
+        <nav id="fomenu">
+            <ul>
+                <li><a href="index.html"><span class="ikon"></span>Kezdőlap</a></li>
+                <li><a href="legjobbak.html" id="aktiv"><span class="ikon"></span>A sportág legjobbjai</a></li>
+                <li><a href="versenyek.html"><span class="ikon"></span>Főbb versenyek</a></li>
+                <li><a href="erdekessegek.html"><span class="ikon"></span>Érdekességek</a></li>
+                <li><a href="urlap.html"><span class="ikon"></span>Űrlap</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <nav id="oldalmenu">
+            <ul>
+                <li><a href="#nok">Nők</a></li>
+                <li><a href="#ferfiak">Férfiak</a></li>
+                <li><a href="#magyarok">Magyarok</a></li>
+            </ul>
+
+        </nav>
+        <hr>
+    </header>
+    <main id="teteje">
+        <aside>
+            <q>A legfontosabb, amit a győzelemből megtanulhatunk, hogy képesek vagyunk rá.</q>
+            <p>Dave Weinbaum</p>
+        </aside>
+        <h1>A sportág legjobbjai</h1>
+        <div>
+            <p>
+                A profi teniszezők minden versenyen, amelyen indulnak ún. <b>ranglistapontokat</b> szerezhetnek. Ezek
+                alapján,
+                mind a férfiak, mind a nők esetében készült egy <b>világranglista</b>, amelyet hetente frissítenek. Így
+                könnyen
+                meghatározhatóak a játékosok közötti erőviszonyok, illetve meghúzható a versenyekre jelentkezők
+                közötti szinthatár. Itt látható a világranglista jelenlegi első 10 helyezettje a nők és a férfiak
+                mezőnyében (<time datetime="2021-04">2021. április</time> 4. hetében):
+            </p>
+            <div class="tablazat">
+                <table class="ranglista">
+                    <caption><strong>Női top 10</strong>
+                        <details>
+                            <summary>Összefoglaló</summary>
+                            <p>A táblázat a női tenisz világranglista első 10 játékosának nevét és pontszámát
+                                tartalmazza.</p>
+                        </details>
+                    </caption>
+                    <tr class="fejlec">
+                        <th scope="col"></th>
+                        <th scope="col">név</th>
+                        <th scope="col">pont</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">1.</th>
+                        <td><span lang="en"><cite>Ashleigh Barty</cite></span> (<abbr title="Ausztrália">AUS</abbr>)
+                        </td>
+                        <td class="pont">9655</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2.</th>
+                        <td><span lang="en"><cite>Naomi Osaka</cite></span> (<abbr title="Japán">JPN</abbr>)</td>
+                        <td class="pont">7800</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3.</th>
+                        <td><span lang="ro"><cite>Simona Halep</cite></span> (<abbr title="Románia">ROU</abbr>)</td>
+                        <td class="pont">7050</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4.</th>
+                        <td><span lang="en"><cite>Sofia Kenin</cite></span> (<abbr title="">USA</abbr>)</td>
+                        <td class="pont">5915</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5.</th>
+                        <td><span lang="uk"><cite>Elina Svitolina</cite></span> (<abbr title="Ukrajna">UKR</abbr>)</td>
+                        <td class="pont">5835</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6.</th>
+                        <td><span lang="en"><cite>Bianca Andreescu</cite></span> (<abbr title="Kanada">CAN</abbr>)</td>
+                        <td class="pont">5265</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7.</th>
+                        <td><span lang="bg"><cite>Aryna Sabalenka</cite></span> (<abbr title="Bulgária">BLR</abbr>)</td>
+                        <td class="pont">5205</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8.</th>
+                        <td><span lang="en"><cite>Serena Williams</cite></span> (<abbr
+                                title="Amerikai Egyesült Államok">USA</abbr>)</td>
+                        <td class="pont">4850</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9.</th>
+                        <td><span lang="cs"><cite>Karolina Pliskova</cite></span> (<abbr title="Csehország">CZE</abbr>)
+                        </td>
+                        <td class="pont">4660</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10.</th>
+                        <td><span lang="nl"><cite>Kiki Bertens</cite></span> (<abbr title="Hollandia">NLD</abbr>)</td>
+                        <td class="pont">4405</td>
+                    </tr>
+                </table>
+                <table class="ranglista">
+                    <caption><strong>Férfi top 10</strong>
+                        <details>
+                            <summary>Összefoglaló</summary>
+                            <p>A táblázat a férfi tenisz világranglista első 10 játékosának nevét és pontszámát
+                                tartalmazza.</p>
+                        </details>
+                    </caption>
+                    <tr class="fejlec">
+                        <th scope="col"></th>
+                        <th scope="col">név</th>
+                        <th scope="col">pont</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">1.</th>
+                        <td><span lang="sr"><cite>Novak Djokovic</cite></span> (<abbr title="Szerbia">SRB</abbr>)</td>
+                        <td class="pont">11963</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2.</th>
+                        <td><span lang="es"><cite>Rafael Nadal</cite></span> (<abbr title="Spanyolország">ESP</abbr>)
+                        </td>
+                        <td class="pont">9810</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3.</th>
+                        <td><span lang="ru"><cite>Daniil Medvedev</cite></span> (<abbr title="Oroszország">RUS</abbr>)
+                        </td>
+                        <td class="pont">9700</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4.</th>
+                        <td><span lang="de"><cite>Dominic Thiem</cite></span> (<abbr title="Ausztria">AUT</abbr>)</td>
+                        <td class="pont">8365</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5.</th>
+                        <td><span lang="el"><cite>Stefanos Tsitsipas</cite></span> (<abbr
+                                title="Görögország">GRC</abbr>)</td>
+                        <td class="pont">7980</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6.</th>
+                        <td><span lang="de"><cite>Alexander Zverev</cite></span> (<abbr title="Németország">DEU</abbr>)
+                        </td>
+                        <td class="pont">6125</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7.</th>
+                        <td><span lang="ru"><cite>Andrey Rublev</cite></span> (<abbr title="Oroszország">RUS</abbr>)
+                        </td>
+                        <td class="pont">6000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8.</th>
+                        <td><span lang="en"><cite>Roger Federer</cite></span> (<abbr title="Svájc">CHE</abbr>)</td>
+                        <td class="pont">5875</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9.</th>
+                        <td><span lang="en"><cite>Diego Schwartzman</cite></span> (<abbr title="Argentína">ARG</abbr>)
+                        </td>
+                        <td class="pont">3765</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10.</th>
+                        <td><span lang="it"><cite>Matteo Berrettini</cite></span> (<abbr title="Olaszország">ITA</abbr>)
+                        </td>
+                        <td class="pont">3568</td>
+                    </tr>
+                </table>
+            </div>
+            <p>
+                Az aktuális teljes ranglisták itt tekinthetőek meg:
+            </p>
+            <div class="linkek">
+                <nav id="link1">
+                    <a href="https://www.teniszeredmenyek.net/wta/vilagranglista/" target="_blank" class="belsolink">Női
+                        világranglista</a>
+                </nav>
+                <nav id="link2">
+                    <a href="https://www.teniszeredmenyek.net/atp/vilagranglista/" target="_blank"
+                        class="belsolink">Férfi
+                        világranglista</a>
+                </nav>
+            </div>
+            <p>
+                A ranglista adatok, illetve a legfontosabb versenyeken elért helyezések, győzelmek alapján számos
+                sztárjátékos emelhető ki. Az alábbiakban a női és a férfi tenisz három legsikeresebb, ma is aktív
+                legendája kerül bemutatásra.
+            </p>
+        </div>
+        <article id="nok">
+            <h2>Nők</h2>
+            <h3><span lang="en"><cite>Serena Williams</cite></span></h3>
+            <div>
+                <figure>
+                    <img src="media/2.1serena.jpg" alt="Serena Williams 2017-es Australian Open döntő után a kupával">
+                    <figcaption><span lang="en"><cite>Serena Williams</cite></span> a <time
+                            datetime="2017">2017</time>-es <span lang="en"><span lang="en">Australian Open</span></span>
+                        döntő után a
+                        kupával</figcaption>
+                </figure>
+                <ul>
+                    <li><b>Született: </b><time datetime="1981-09-26">1981. szeptember 26.</time> (39 éves)</li>
+                    <li><b>Ország: </b>Egyesült Államok</li>
+                    <li><b>Legjobb ranglista helyezés: </b>1.</li>
+                    <li><b>Jelenlegi ranglista helyezés: </b>8.</li>
+                    <li><b>Leghosszabb idő a ranglista élén: </b>186 hét</li>
+                    <li><b><span lang="en">Grand Slam</span> trófeák (23): </b></li>
+                </ul>
+                <ol>
+                    <li><span lang="en"><span lang="en">Australian Open</span></span> (7):
+                        <time datetime="2003">2003.</time>, <time datetime="2005">2005.</time>,
+                        <time datetime="2007">2007.</time>, <time datetime="2009">2009.</time>,
+                        <time datetime="2010">2010.</time>, <time datetime="2015">2015.</time>,
+                        <time datetime="2017">2017.</time>
+                    </li>
+                    <li><span lang="en"><span lang="en">Roland Garros</span></span> (3):
+                        <time datetime="2002">2002.</time>, <time datetime="2013">2013.</time>,
+                        <time datetime="2015">2015.</time>
+                    </li>
+                    <li><span lang="en">Wimbledon</span> (7):
+                        <time datetime="2002">2002.</time>, <time datetime="2003">2003.</time>,
+                        <time datetime="2009">2009.</time>, <time datetime="2010">2010.</time>,
+                        <time datetime="2012">2012.</time>, <time datetime="2015">2015.</time>,
+                        <time datetime="2016">2016.</time>
+                    </li>
+                    <li><span lang="en"><span lang="en">US Open</span></span> (6):
+                        <time datetime="1999">1999.</time>, <time datetime="2002">2002.</time>,
+                        <time datetime="2008">2008.</time>, <time datetime="2012">2012.</time>,
+                        <time datetime="2013">2013.</time>, <time datetime="2014">2014.</time>,
+                    </li>
+                </ol>
+
+            </div>
+            <h3><span lang="ro"><cite>Simona Halep</cite></span></h3>
+            <div>
+                <figure>
+                    <img src="media/2.1halep.jpg" alt="Simona Halep 2019-es Wimbledon döntő után a kupával">
+                    <figcaption><span lang="ro"><cite>Simona Halep</cite></span> a <time datetime="2019">2017</time>-es
+                        <span lang="en">Wimbledon</span> döntő után a
+                        kupával</figcaption>
+                </figure>
+                <ul>
+                    <li><b>Született: </b><time datetime="1991-09-27">1991. szeptember 27.</time> (29 éves)</li>
+                    <li><b>Ország: </b>Románia</li>
+                    <li><b>Legjobb ranglista helyezés: </b>1.</li>
+                    <li><b>Jelenlegi ranglista helyezés: </b>3.</li>
+                    <li><b>Leghosszabb idő a ranglista élén: </b>48 hét</li>
+                    <li><b><span lang="en">Grand Slam</span> trófeák (2): </b></li>
+                </ul>
+                <ol>
+                    <li><span lang="en">Roland Garros</span> (1): <time datetime="2018">2018.</time></li>
+                    <li><span lang="en">Wimbledon</span> (1): <time datetime="2019">2019.</time></li>
+                </ol>
+            </div>
+            <h3><span lang="en"><cite>Naomi Osaka</cite></span></h3>
+            <div>
+                <figure>
+                    <img src="media/2.1osaka.jpg" alt="Naomi Osaka a 2021-es Australian Open döntő után a kupával">
+                    <figcaption><span lang="en"><cite>Naomi Osaka</cite></span> a <time datetime="2021">2021</time>-es
+                        <span lang="en">Australian Open</span> döntő után a
+                        kupával</figcaption>
+                </figure>
+                <ul>
+                    <li><b>Született: </b><time datetime="1997-10-16">1997. október 16.</time> (23 éves)</li>
+                    <li><b>Ország: </b>Japán</li>
+                    <li><b>Legjobb ranglista helyezés: </b>1.</li>
+                    <li><b>Jelenlegi ranglista helyezés: </b>2.</li>
+                    <li><b>Leghosszabb idő a ranglista élén: </b>21 hét</li>
+                    <li><b><span lang="en">Grand Slam</span> trófeák (4): </b></li>
+                </ul>
+                <ol>
+                    <li><span lang="en">Australian Open</span> (2): <time datetime="2019">2019.</time>, <time
+                            datetime="2021">2021.</time></li>
+                    <li><span lang="en">US Open</span> (2): <time datetime="2018">2018.</time>, <time
+                            datetime="2020">2020.</time></li>
+                </ol>
+
+            </div>
+        </article>
+        <nav class="ugras">
+            <a href="#teteje">VISSZA A TETEJÉRE</a>
+        </nav>
+        <article id="ferfiak">
+            <h2>Férfiak</h2>
+            <h3><span lang="en"><cite>Roger Federer</cite></span></h3>
+            <div>
+                <figure>
+                    <img src="media/2.2federer.jpg"
+                        alt="Roger Federer a 2018-as Australian Open döntő után a kupával">
+                    <figcaption><span lang="en"><cite>Roger Federer</cite></span> a <time datetime="2018">2018</time>-as
+                        <span lang="en">Australian Open</span> döntő után a
+                        kupával</figcaption>
+                </figure>
+                <ul>
+                    <li><b>Született: </b><time datetime="1981-08-08">1981. augusztus 8.</time> (39 éves)</li>
+                    <li><b>Ország: </b>Svájc</li>
+                    <li><b>Kedvenc borítás: </b>fű</li>
+                    <li><b>Legjobb ranglista helyezés: </b>1.</li>
+                    <li><b>Jelenlegi ranglista helyezés: </b>8.</li>
+                    <li><b>Leghosszabb idő a ranglista élén: </b>237 hét</li>
+                    <li><b><span lang="en">Grand Slam</span> trófeák (20): </b></li>
+                </ul>
+                <ol>
+                    <li><span lang="en">Australian Open</span> (6):
+                        <time datetime="2004">2004.</time>, <time datetime="2006">2006.</time>,
+                        <time datetime="2007">2007.</time>, <time datetime="2010">2010.</time>,
+                        <time datetime="2017">2017.</time>, <time datetime="2018">2018.</time>
+                    </li>
+                    <li><span lang="en">Roland Garros</span> (1):
+                        <time datetime="2009">2009.</time>
+                    </li>
+                    <li><span lang="en">Wimbledon</span> (8):
+                        <time datetime="2003">2003.</time>, <time datetime="2004">2004.</time>,
+                        <time datetime="2005">2005.</time>, <time datetime="2006">2006.</time>,
+                        <time datetime="2007">2007.</time>, <time datetime="2009">2009.</time>,
+                        <time datetime="2012">2012.</time>, <time datetime="2017">2017.</time>
+                    </li>
+                    <li><span lang="en">US Open</span> (5):
+                        <time datetime="2004">2004.</time>, <time datetime="2005">2005.</time>,
+                        <time datetime="2006">2006.</time>, <time datetime="2007">2007.</time>,
+                        <time datetime="2008">2008.</time>
+                    </li>
+                </ol>
+
+            </div>
+            <h3><span lang="es"><cite>Rafael Nadal</cite></span></h3>
+            <div>
+                <figure>
+                    <img src="media/2.2nadal.jpg" alt="Rafael Nadal a 2018-as Roland Garros döntő után a kupával">
+                    <figcaption><span lang="es"><cite>Rafael Nadal</cite></span> a <time datetime="2018">2018</time>-as
+                        <span lang="en">Roland Garros</span> döntő után a
+                        kupával</figcaption>
+                </figure>
+                <ul>
+                    <li><b>Született: </b><time datetime="1986-06-03">1986. június 3.</time> (34 éves)</li>
+                    <li><b>Ország: </b>Spanyolország</li>
+                    <li><b>Kedvenc borítás: </b>salak</li>
+                    <li><b>Legjobb ranglista helyezés: </b>1.</li>
+                    <li><b>Jelenlegi ranglista helyezés: </b>2.</li>
+                    <li><b>Leghosszabb idő a ranglista élén: </b>56 hét</li>
+                    <li><b><span lang="en">Grand Slam</span> trófeák (20): </b></li>
+                </ul>
+                <ol>
+                    <li><span lang="en">Australian Open</span> (1):
+                        <time datetime="2009">2009.</time>
+                    </li>
+                    <li><span lang="en">Roland Garros</span> (13):
+                        <time datetime="2005">2005.</time>, <time datetime="2006">2006.</time>,
+                        <time datetime="2007">2007.</time>, <time datetime="2008">2008.</time>,
+                        <time datetime="2010">2010.</time>, <time datetime="2011">2011.</time>,
+                        <time datetime="2012">2012.</time>, <time datetime="2013">2013.</time>,
+                        <time datetime="2014">2014.</time>, <time datetime="2017">2017.</time>,
+                        <time datetime="2018">2018.</time>, <time datetime="2019">2019.</time>,
+                        <time datetime="2020">2020.</time>
+                    </li>
+                    <li><span lang="en">Wimbledon</span> (2):
+                        <time datetime="2008">2008.</time>, <time datetime="2010">2010.</time>
+                    </li>
+                    <li><span lang="en">US Open</span> (4):
+                        <time datetime="2010">2010.</time>, <time datetime="2013">2013.</time>,
+                        <time datetime="2017">2017.</time>, <time datetime="2019">2019.</time>
+                    </li>
+                </ol>
+
+            </div>
+            <h3><span lang="sr"><cite>Novak Djokovic</cite></span></h3>
+            <div>
+                <figure>
+                    <img src="media/2.2djoko.jpg" alt="Novak Djokovic a 2021-es Australian Open döntő után a kupával">
+                    <figcaption><span lang="sr"><cite>Novak Djokovic</cite></span> a <time
+                            datetime="2021">2021</time>-es <span lang="en">Australian Open</span> döntő után a
+                        kupával</figcaption>
+                </figure>
+                <ul>
+                    <li><b>Született: </b><time datetime="1987-05-22">1987. május 22.</time> (33 éves)</li>
+                    <li><b>Ország: </b>Szerbia</li>
+                    <li><b>Kedvenc borítás: </b>kemény</li>
+                    <li><b>Legjobb ranglista helyezés: </b>1.</li>
+                    <li><b>Jelenlegi ranglista helyezés: </b>1.</li>
+                    <li><b>Leghosszabb idő a ranglista élén: </b>238 hét</li>
+                    <li><b><span lang="en">Grand Slam</span> trófeák (18): </b></li>
+                </ul>
+                <ol>
+                    <li><span lang="en">Australian Open</span> (9):
+                        <time datetime="2008">2008.</time>, <time datetime="2011">2011.</time>,
+                        <time datetime="2012">2012.</time>, <time datetime="2013">2013.</time>,
+                        <time datetime="2015">2015.</time>, <time datetime="2016">2016.</time>,
+                        <time datetime="2013">2019.</time>, <time datetime="2020">2020.</time>,
+                        <time datetime="2021">2021.</time>
+                    </li>
+                    <li><span lang="en">Roland Garros</span> (1):
+                        <time datetime="2016">2016.</time>
+                    </li>
+                    <li><span lang="en">Wimbledon</span> (5):
+                        <time datetime="2011">2011.</time>, <time datetime="2014">2014.</time>,
+                        <time datetime="2015">2015.</time>, <time datetime="2018">2018.</time>,
+                        <time datetime="2019">2019.</time>
+                    </li>
+                    <li><span lang="en">US Open</span> (3):
+                        <time datetime="2011">2011.</time>, <time datetime="2015">2015.</time>,
+                        <time datetime="2018">2018.</time>
+                    </li>
+                </ol>
+
+            </div>
+        </article>
+        <nav class="ugras">
+            <a href="#teteje">VISSZA A TETEJÉRE</a>
+        </nav>
+        <p>
+            Bár hazai teniszezőink még nem rendelkeznek ekkora eredményekkel azért nálunk is akadnak kisebb sikerek,
+            most ezek következnek.
+        </p>
+        <article id="magyarok">
+            <h2>Magyarok</h2>
+            <h3><cite>Babos Tímea</cite> (párosban)</h3>
+            <div>
+                <figure>
+                    <img src="media/2.3babos.jpg"
+                        alt="Babos Tímea (balra) Kristina Mladenoviccal a 2020-as Roland Garros győzelem után a kupával">
+                    <figcaption><cite>Babos Tímea</cite> (balra) <span lang="fr"><cite>Kristina
+                                Mladenovic</cite></span>cal a <time datetime="2020">2020</time>-as <span
+                            lang="en">Roland Garros</span> győzelem után a kupával</figcaption>
+                </figure>
+                <ul>
+                    <li><b>Született: </b><time datetime="1993-05-10">1993. május 10.</time> (27 éves)</li>
+                    <li><b>Város: </b>Sopron</li>
+                    <li><b>Legjobb ranglista helyezés: </b>1.</li>
+                    <li><b>Jelenlegi ranglista helyezés: </b>3.</li>
+                    <li><b>Páros partner: </b><span lang="fr"><cite>Kristina Mladenovic</cite></span> (Franciaország)
+                    </li>
+                    <li><b><span lang="en">Grand Slam</span> trófeák (4): </b></li>
+                </ul>
+                <ol>
+                    <li><span lang="en">Australian Open</span> (2): <time datetime="2018">2018.</time>, <time
+                            datetime="2020">2020.</time></li>
+                    <li><span lang="en">Roland Garros</span> (2): <time datetime="2019">2019.</time>, <time
+                            datetime="2020">2020.</time></li>
+                </ol>
+
+            </div>
+            <h3><cite>Fucsovics Márton</cite></h3>
+            <div>
+                <figure>
+                    <img src="media/2.3fucsovics.jpg" alt="Fucsovics Márton a 2021-és Australian Openen">
+                    <figcaption><cite>Fucsovics Márton</cite> a <time datetime="2021">2021</time>-es <span
+                            lang="en">Australian Open</span>en</figcaption>
+                </figure>
+                <ul class="fiuk">
+                    <li><b>Született: </b><time datetime="1992-02-08">1992. február 8.</time> (29 éves)</li>
+                    <li><b>Város: </b>Nyíregyháza</li>
+                    <li><b>Legjobb ranglista helyezés: </b>31.</li>
+                    <li><b>Jelenlegi ranglista helyezés: </b>40.</li>
+                    <li><b><span lang="en">Grand Slam</span> trófeák: </b>nincs</li>
+                </ul>
+
+            </div>
+            <h3><cite>Balázs Attila</cite></h3>
+            <div>
+                <figure>
+                    <img src="media/2.3balazs.jpg" alt="Balázs Attila a válogatott színeiben">
+                    <figcaption><cite>Balázs Attila</cite> a válogatott színeiben</figcaption>
+                </figure>
+                <ul class="fiuk">
+                    <li><b>Született: </b><time datetime="1988-10-27">1988. szeptember 27.</time> (32 éves)</li>
+                    <li><b>Város: </b>Budapest</li>
+                    <li><b>Legjobb ranglista helyezés: </b>76.</li>
+                    <li><b>Jelenlegi ranglista helyezés: </b>102.</li>
+                    <li><b><span lang="en">Grand Slam</span> trófeák: </b>nincs</li>
+                </ul>
+
+            </div>
+        </article>
+        <nav class="ugras">
+            <a href="#teteje">VISSZA A TETEJÉRE</a>
+        </nav>
+        <hr>
+        <article id="forrasok">
+            <h2>Források</h2>
+            <ul>
+                <li><a href="https://www.teniszeredmenyek.net/" target="_blank">teniszeredmenyek.net</a>
+                </li>
+                <li>
+                    <a href="https://www.marca.com/en/more-sports/2017/01/28/588c7cd046163f22028b45e2.html"
+                        target="_blank">marca.com</a>
+                </li>
+                <li>
+                    <a href="https://www.wtatennis.com/news/1446826/i-wanted-this-badly-simona-halep-stuns-serena-williams-for-wimbledon-2019-title"
+                        target="_blank">WTA</a>
+                </li>
+                <li>
+                    <a href="https://bleacherreport.com/articles/2932672-naomi-osaka-defeats-jennifer-brady-to-win-2021-australian-open-womens-final"
+                        target="_blank">bleacherreport.com</a>
+                </li>
+                <li>
+                    <a href="https://www.irishtimes.com/sport/other-sports/federer-stays-cool-in-stifling-heat-as-he-claims-australian-open-1.3371467"
+                        target="_blank">The Irish Times</a>
+                </li>
+                <li>
+                    <a href="http://usa.chinadaily.com.cn/a/201806/11/WS5b1dcdb4a31001b82571f386_1.html"
+                        target="_blank">chinadaily.com</a>
+                </li>
+                <li>
+                    <a href="https://tennishead.net/i-lost-australian-open-final-because-novak-djokovic-was-better-than-me-says-daniil-medvedev/"
+                        target="_blank">tennishead.net</a>
+                </li>
+                <li>
+                    <a href="https://sportmenu.hu/babos-timea-ez-egy-igazan-kulonleges-siker/"
+                        target="_blank">sportmenu.hu</a>
+                </li>
+                <li>
+                    <a href="https://www.nemzetisport.hu/tenisz/aus-open-babos-es-fucsovics-a-palyan-2809545"
+                        target="_blank">Nemzeti Sport</a>
+                </li>
+                <li>
+                    <a href="https://balazsattila.eu/" target="_blank">balazsattila.eu</a>
+                </li>
+            </ul>
+        </article>
+        <hr>
+    </main>
+    <footer>
+        <p>Készítette: <br>
+            Dorogi Dóra
+            (<a href="mailto:un7njr@inf.elte.hu" class="belsolink">un7njr@inf.elte.hu</a>) <br>
+            <time datetime="2021-04-12">2021.04.12.</time>
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>
